@@ -1,0 +1,59 @@
+.heading1 {
+    font-family: --ff-comforter-brush;
+    color : yellow ;
+}
+.heading2 {
+    font-family: --ff-comforter-fatface;
+    font-size: --fs-3;
+}
+
+.hoverEffect:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+}
+
+.imageContainer {
+    position: relative;
+  }
+  
+.imageContainer h3{
+    position: absolute;
+    bottom:1
+  }
+.imageContainer h1 {
+    position: absolute;
+    bottom: 0
+  }  
+/* Style.module.css */
+
+.imageContainer {
+    position: relative;
+  }
+  
+  .hoverEffect {
+    transition: transform 0.5s;
+  }
+  
+  .imageContainer:hover .hoverEffect {
+    transform: scale(1.05);
+  }
+  
+  .imageContainer::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border: 2px solid #000;
+    opacity: 0;
+    transition: opacity 0.3s;
+    pointer-events: none;
+  }
+  
+  .imageContainer:hover::after {
+    opacity: 1;
+  }
+  
+  
+  
