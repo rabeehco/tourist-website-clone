@@ -1,0 +1,42 @@
+.navbar{
+    background-color: rgba(2,157,157,255);
+  
+   
+}
+.div1{
+  
+    width: 6em;
+}.tourest{
+    
+    font-size: 2.2em;
+    font-family: var(--ff-heebo);
+    font-weight: bolder;
+}
+.texts{
+    font-family:  var(--ff-heebo);
+    font-weight: bolder;
+    font-size: large;
+}
+.div2{
+    width: 47em;
+}.div3{
+    width: 10em;
+}.btn{
+    background-color: white;
+    color: rgba(2,157,157,255) ;
+   padding: .6em 1.4em .6em 1.4em;
+   font-weight: bolder;
+   border:2px solid white;
+   border-radius: .4em;
+}.div0{
+    height:1px;
+}.texts:hover{
+    
+    text-decoration: underline;
+    text-decoration-color: white;
+    text-underline-offset: 0.4em;
+    
+}.btn:hover{
+    background-color: rgba(2,157,157,255) ;
+    color: white;
+}
