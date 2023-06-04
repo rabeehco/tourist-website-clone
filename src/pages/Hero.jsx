@@ -1,17 +1,16 @@
-// eslint-disable-next-line no-unused-vars
+
 import React from 'react'
 import { Button } from 'react-bootstrap';
-import { Helmet } from 'react-helmet';
-import './style.css'
+import styles from './hero.module.css'
+
 
 function Hero() {
   return (
    
-    <div className="container ">
+    <div className={`${styles.container}`}>
       <div className=" row justify-content-center mt-5 col-md-12 ">
-        <div className="col-md-4 ">
-          <h3 style={{ fontFamily: 'Sacramento, cursive'}} className='mb-4 sub'>Explore Your Travel</h3>
-          <Helmet/>
+        <div className="col-md-4 " id={`${styles.subdiv}`}>
+          <h3 style={{ fontFamily: 'Sacramento, cursive'}} className='sub mt-4'>Explore Your Travel</h3>
           <h1  className='mb-3' style={{ fontFamily: 'Black Ops One, cursive', fontSize: '3.5em'}}>Trusted Travel <br/> Agency</h1>
           <p className='mb-5' style={{color:'grey'}}>I travel not to go anywhere, but to go. I travel for travel's sake the <br/> 
               great affair is to move.</p>

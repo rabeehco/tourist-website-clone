@@ -9,12 +9,13 @@
   justify-content: center;
   align-items: center;
   height: 100vh; /* Set the desired height for the container */
+ 
 }
 
-.col-md-4 {
+#subdiv {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  /* align-items: center; */
-  height: 100%; /* Take up the full height of the parent container */
+  height: 100%; 
+  margin-top: 10px;
 }
