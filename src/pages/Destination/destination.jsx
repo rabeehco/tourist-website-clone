@@ -1,6 +1,6 @@
 import React from 'react';
 import { Col, Container, Image, Row } from 'react-bootstrap';
-import styles from './Style.module.css';
+import styles from './destination.module.css';
 
 function ShapeExample() {
   return (
