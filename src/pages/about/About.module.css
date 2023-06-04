@@ -1,0 +1,42 @@
+.container{
+    display: flex;
+}
+.left_container{
+    width: 50%;
+}
+.right_container{
+width: 50%;
+}
+.icon{
+font-size:2rem ;
+color:rgb(52, 213, 234) ;
+}
+
+button:hover{
+    background-color: aliceblue !important;
+    color: rgb(16, 111, 195) !important;
+}
+  
+:root {
+    --ff-comforter-brush: 'Comforter Brush', cursive;
+    --mikado-yellow: #FFC40C;
+    --fs-3: 50px;
+
+  }
+  
+  .head {
+    font-family: var(--ff-comforter-brush);
+    color: var(--mikado-yellow);
+    font-size: var(--fs-3);
+    font-family: 'Dancing Script', cursive;
+  }
+  ul{
+    list-style-type: none;
+  }
+
+  
+
+  
+
+
+
