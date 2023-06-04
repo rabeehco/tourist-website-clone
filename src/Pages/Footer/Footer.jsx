@@ -1,5 +1,9 @@
-import React from 'react'
 import styles from './Footer.module.css'
+import { CiFacebook } from 'react-icons/ci'
+import { AiFillTwitterCircle } from 'react-icons/ai'
+import { AiOutlineInstagram } from 'react-icons/ai'
+import { AiFillLinkedin } from 'react-icons/ai'
+import { AiFillGoogleCircle } from 'react-icons/ai'
 
 
 export default function Footer() {
@@ -126,37 +130,11 @@ export default function Footer() {
                 </p>
 
                 <ul className="social-list">
-
-                  <li>
-                    <a href="#" className="social-link">
-                      <ion-icon name="logo-facebook" role="img" className="md hydrated" aria-label="logo facebook"></ion-icon>
-                    </a>
-                  </li>
-
-                  <li>
-                    <a href="#" className="social-link">
-                      <ion-icon name="logo-twitter" role="img" className="md hydrated" aria-label="logo twitter"></ion-icon>
-                    </a>
-                  </li>
-
-                  <li>
-                    <a href="#" className="social-link">
-                      <ion-icon name="logo-instagram" role="img" className="md hydrated" aria-label="logo instagram"></ion-icon>
-                    </a>
-                  </li>
-
-                  <li>
-                    <a href="#" className="social-link">
-                      <ion-icon name="logo-linkedin" role="img" className="md hydrated" aria-label="logo linkedin"></ion-icon>
-                    </a>
-                  </li>
-
-                  <li>
-                    <a href="#" className="social-link">
-                      <ion-icon name="logo-google" role="img" className="md hydrated" aria-label="logo google"></ion-icon>
-                    </a>
-                  </li>
-
+                  <CiFacebook className={styles.icon} />
+                  <AiFillTwitterCircle className={styles.icon} />
+                  <AiOutlineInstagram className={styles.icon} />
+                  <AiFillLinkedin className={styles.icon} />
+                  <AiFillGoogleCircle className={styles.icon} />
                 </ul>
 
               </div>
