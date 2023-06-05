@@ -1,0 +1,83 @@
+.subHeading{
+    color: #fcc603;
+    font-family:  "cursive";
+  }
+  .blog-post{
+    /* width: 100%; */
+  }
+  .mainHeading{
+    color: #333333;
+    font-family: "cursive"  ;
+    font-size: 49px;
+    font-weight: 900;
+  }
+  .overlayBox {
+    position: absolute;
+    top: 7%;
+    left: 8%;
+    width: 22%;
+    height: 20%;
+    background-color: #fcc603;
+    display: inline;
+    border-radius: 5px;
+    /* background-color: rgba(0, 0, 0, 0.5); */
+  }
+  .days{
+    margin-top: 6%;
+    margin-left: 12%;
+     color: white;
+     font-weight: 700;
+     font-size:17px;
+  }
+  .timer {
+    /* position: absolute; */
+    /* left: 2%; */
+    margin-top: 6%;
+    margin-left: 35%;
+    color: white;
+    font-size: 130%;
+  }
+  .from{
+    background-color: #029d9d;
+    color: white;
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    border-radius: 5px;
+    /* height: 17%; */
+    /* font-size: 18px; */
+    font-family: Heebo, sans-serif;
+    padding: 3px;
+  }
+
+  strong{
+    color: #666666;
+  }
+
+  .rating{
+    background-color: #fcc603;
+    color: white;
+    width: 33%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    position: absolute;
+    left: 50%;
+    top: 58%;
+    height: 8%;
+    
+  }
+
+  .cardBorder{
+    border: none;
+  }
+  .cardImage{
+    width: 100px;
+  }
+  .cards{
+    display: flex;
+    width: 100%;
+   
+      
+}
