@@ -1,8 +1,8 @@
 import React from 'react';
 import styles from './blogs.module.css';
 import Card from 'react-bootstrap/Card';
-import { RxTimer } from 'react-icons/Rx';
-import { AiFillStar, AiOutlineStar } from 'react-icons/Ai';
+import { RxTimer } from 'react-icons/rx';
+import { AiFillStar, AiOutlineStar } from 'react-icons/ai';
 
 const cardDetails = [
   {

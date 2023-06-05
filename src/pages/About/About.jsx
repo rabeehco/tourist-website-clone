@@ -6,7 +6,7 @@ import { Button } from 'bootstrap';
 const About = () => {
     return (
         <>
-            <p className={styles.head}>Abut us</p>
+            <p className={styles.head}>About us</p>
             <div className={styles.container}>
                 <div className={styles.left_container}>
                     <h1> Explore all toure of the <br /> world with us.</h1>
