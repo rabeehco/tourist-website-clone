@@ -1,11 +1,13 @@
-import Footer from "./pages/Footer/Footer"
+import React from 'react'
+  
 
 function App () {
   return (
     <>
   
-<Footer />
+
     </>
+
   )
 }
 
