@@ -1,5 +1,9 @@
+
+
 # Contributing Guidelines 
-Please go through the documentation atleast once before you start contributing. 
+Please go through the documentation at least once before you start contributing. 
+
+## [Step By Step Method to Raise a PR](https://chat.openai.com/share/16abe1c0-a35f-4c2e-a64a-b64fbeb3ee6a)
 
 ## Commits 👮
 
